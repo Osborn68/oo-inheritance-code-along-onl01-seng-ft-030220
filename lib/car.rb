@@ -1,7 +1,8 @@
 require_relative "./vehicle.rb"
 require 'pry'
 class Car < Vehicle 
-def go 
+def go "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
+  end
 end
   
  
