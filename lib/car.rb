@@ -1,21 +1,12 @@
 require_relative "./vehicle.rb"
 require 'pry'
-class Car 
-  
-  attr_accessor :wheel_size, :wheel_number
-  attr_reader :number
-  def initialize(wheel_size, wheel_number)
-    @wheel_size = wheel_size
-    @wheel_number = wheel_number
-  end
-  
+class Car < Vehicle 
   def go 
-    return "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
+    'VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!'
   end
-  
-  def fill_up_tank
-    return "filling up!"
-  end
-  
 end
+
+
+  
+ 
   
